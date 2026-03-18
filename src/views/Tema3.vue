@@ -7,12 +7,13 @@
         span 3
       h1 Técnicas poscosecha
 
-    .row.align-items-center.m-0.mb-5.style___box_2(data-aos="zoom-in")
-      .col-xl-auto
-        figure.d-none.d-xl-block
-          img(src='@/assets/curso/temas/img53.png', alt='').m-auto
-      .col-xl
-        p.mb-0 Es importante comprender que uno de los puntos de partida fundamentales en la conservación de alimentos es la #[b poscosecha]. Este concepto hace referencia al conjunto de conocimientos y prácticas que se aplican al producto #[b después de ser recolectado], así como a las técnicas de manejo necesarias para preservar su calidad, ya sea en estado #[b natural] o #[b fresco].
+    .style___box_2.mb-5(data-aos="zoom-in")
+      .row.align-items-center
+        .col-xl-auto
+          figure
+            img(src='@/assets/curso/temas/img53.png', alt='').m-auto
+        .col-xl
+          p.mb-0 Es importante comprender que uno de los puntos de partida fundamentales en la conservación de alimentos es la #[b poscosecha]. Este concepto hace referencia al conjunto de conocimientos y prácticas que se aplican al producto #[b después de ser recolectado], así como a las técnicas de manejo necesarias para preservar su calidad, ya sea en estado #[b natural] o #[b fresco].
     
     .row.align-items-center
       .col-xl
@@ -74,9 +75,9 @@
           SlyderA(tipo="b")
             .row.h-100.justify-content-center.align-items-center
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img56.png', alt='' style="max-width: 500px").m-auto
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.espacio___movil_3
                 h4 Sensoriales
                 h5 Características:
                 ul.fa-ul.estilo___ul.mb-0
@@ -95,9 +96,9 @@
               
             .row.h-100.justify-content-center.align-items-center
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img57.png', alt='' style="max-width: 500px").m-auto
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.espacio___movil_3
                 h4 Físicos
                 h5 Características:
                 ul.fa-ul.estilo___ul.mb-0
@@ -120,9 +121,9 @@
               
             .row.h-100.justify-content-center.align-items-center
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img58.png', alt='' style="max-width: 500px").m-auto
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.espacio___movil_3
                 h4 Químicos
                 h5 Características:
                 ul.fa-ul.estilo___ul.mb-0
@@ -137,9 +138,9 @@
               
             .row.h-100.justify-content-center.align-items-center
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img59.png', alt='' style="max-width: 500px").m-auto
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.espacio___movil_3
                 h4 Fisiológicos
                 h5 Características:
                 ul.fa-ul.estilo___ul.mb-0
@@ -158,9 +159,9 @@
               
             .row.h-100.justify-content-center.align-items-center
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img60.png', alt='' style="max-width: 500px").m-auto
-              .col-xl-6.mb-4
+              .col-xl-6.mb-4.espacio___movil_3
                 h4 Cuantitativos
                 h5 Características:
                 ul.fa-ul.estilo___ul.mb-0
@@ -241,25 +242,25 @@
               .col-xl
                 p.mb-3 Se realiza en cámaras destinadas al almacenamiento final, aumentando el flujo de aire dentro del cuarto para facilitar la remoción del calor del producto.
               .col-xl-auto
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img65.png', alt='' style="max-width: 150px").m-auto 
             .row(titulo="Preenfriamiento con aire forzado").ajuste-cajaAcordion
               .col-xl
                 p.mb-3 Consiste en generar movimiento forzado de aire frío a través de los orificios de las canastillas que contienen el producto, extrayendo el calor hacia un sistema extractor y evitando el retorno del aire caliente mediante superficies de sellado.
               .col-xl-auto
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img66.png', alt='' style="max-width: 150px").m-auto 
             .row(titulo="Hidroenfriamiento").ajuste-cajaAcordion
               .col-xl
                 p.mb-3 Emplea agua fría a temperaturas entre #[b 1 y 5 °C], en la cual el producto se sumerge durante #[b 1 a 5 minutos], dependiendo de la textura y resistencia del fruto.
               .col-xl-auto
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img67.png', alt='' style="max-width: 150px").m-auto 
             .row(titulo="Preenfriamiento con vacío").ajuste-cajaAcordion
               .col-xl
                 p.mb-3 Sistema que provoca la evaporación del agua aplicada a la superficie del producto mediante la reducción de la presión (#[i vacuum]), logrando que el agua se evapore a #[b 0 °C] y reduzca rápidamente la temperatura del alimento.
               .col-xl-auto
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img68.png', alt='' style="max-width: 150px").m-auto 
         
     <!------------------------------------------ SUBTEMA 4 ------------------------------------------>
@@ -269,13 +270,13 @@
 
     p.mb-5 A continuación, se presenta un pódcast que explica el papel del etileno en el proceso de maduración de los frutos, destacando su origen, función hormonal y relevancia en la conservación de alimentos frescos.
 
-    .row.align-items-center.m-0.mb-5
+    .row.align-items-center.jus.m-0.mb-5
       .col-xl
-        .row.align-items-center.style___box_8(data-aos="zoom-in")
+        .row.align-items-center.justify-content-center.style___box_8(data-aos="zoom-in")
           .col-auto
-            figure.d-none.d-xl-block(data-aos="fade-right")
+            figure(data-aos="fade-right")
               img(src="@/assets/curso/temas/img69.svg" style="max-width: 220px").m-auto
-          .col
+          .col.espacio___movil_3
             h4.mb-4 Pódcast
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="Control de la maduración"
@@ -364,7 +365,7 @@
                     h4 Líquido
                     p.mb-0 Ácido 2-cloroetil fosfónico, conocido como ethrel o #[i ethephon]. Puede mezclarse con hidróxido de sodio para liberar etileno, obteniendo aproximadamente 93 g de etileno por litro, equivalentes a 74,4 litros de gas etileno por litro de #[i ethrel].
                   .col-xl-6
-                    figure.d-none.d-xl-block
+                    figure
                       img(src='@/assets/curso/temas/img71.png', alt='' style="max-width: 500px").m-auto
                 
                 .row.h-100.justify-content-center.align-items-center
@@ -372,7 +373,7 @@
                     h4 Gas
                     p.mb-0 Disponible en cilindros grandes con capacidad aproximada de 12,9 m³ y cilindros pequeños de 2,6 m³. El método de aplicación consiste en conducir el gas, mediante tuberías, hacia la bodega de maduración que contiene la fruta.
                   .col-xl-6
-                    figure.d-none.d-xl-block
+                    figure
                       img(src='@/assets/curso/temas/img72.png', alt='' style="max-width: 500px").m-auto
 
     p.mb-0 Este control permite regular el avance de la maduración y mantener la calidad del alimento durante su almacenamiento y distribución.
